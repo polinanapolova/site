@@ -65,4 +65,79 @@ body{
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+    padding-top: 130px;
+}
+
+.header-content{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.purple{
+    color: #C778DD;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.Iam{
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 24px;
+}
+
+.button{
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #C778DD;
+    width: 140px;
+    height: 35px;
+    text-align: center;  
+    padding-top: 5px;
+    margin-top: 32px;
+}
+
+.header-img{
+    padding-bottom: 77px;
+    margin-right: 36px;
+}
+.img-me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+.status{
+    position: relative;
+    padding-left: 32px;
+    padding-right: 80px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ABB2BF;
+    border: 1px solid #ABB2BF;
+   /* width: 402px;
+    height: 36px;*/
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 1;
+    
+}
+
+.white{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.status::before{
+    position: absolute;
+    left:0;
+    margin-left: 8px;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #C778DD;
+    
 }
