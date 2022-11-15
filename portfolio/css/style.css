@@ -14,17 +14,18 @@ body{
 }
 
 /*Header*/
-.header{
+/*.header{
     /*padding-top: 32px;*/
-    padding-bottom: 77px;
+   /*padding-bottom: 77px;
    
-}
+}*/
 
 .header-nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 32px;
+    margin-bottom: 130px;
 }
 
 .img_logo{
@@ -65,13 +66,13 @@ body{
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
-    padding-top: 130px;
 }
 
 .header-content{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 32px;
+    max-width: 500px;
 }
 
 .purple{
@@ -140,4 +141,61 @@ body{
     height: 16px;
     background-color: #C778DD;
     
+}
+
+/*projects*/
+
+.project-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    position: relative;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.title::before{
+    content: "#";
+    color:#C778DD;
+}
+
+.p-title::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 190px;
+    max-width: 511px;
+    height: 1px;
+    background-color: #C778DD;
+}
+
+.project-card{
+ margin-top: 48px;
+}
+
+.project-card-title{
+
+}
+
+/*skils*/
+
+.s-title::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 152px;
+    max-width: 239px;
+    height: 1px;
+    background-color: #C778DD;
 }
