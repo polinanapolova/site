@@ -72,7 +72,7 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 32px;
-    max-width: 500px;
+    width: 500px;
 }
 
 .purple{
@@ -102,7 +102,34 @@ body{
 .header-img{
     padding-bottom: 77px;
     margin-right: 36px;
+    max-width: 420px;
 }
+/*при полном экране красиво, когда сжимаешь все теряется, нужно задать размеры
+еще сжалась надпись фронтеда*/
+#squares, #img-me, #dots{
+    position: relative;
+}
+
+#squares{
+    right: -285px;
+    bottom: -20px
+}
+
+#dots{
+    right: -400px;
+    bottom: -225px;
+}
+
+#squares{
+    z-index: 1;
+}
+#img-me{
+    z-index: 2;
+}
+#dots{
+    z-index: 3;
+}
+
 .img-me{
     display: block;
     margin-left: auto;
@@ -117,8 +144,8 @@ body{
     font-size: 16px;
     color: #ABB2BF;
     border: 1px solid #ABB2BF;
-   /* width: 402px;
-    height: 36px;*/
+    width: 402px;/*все ломается при сжатии, но зато нет переноса*/
+    /*height: 36px;*/
     padding-top: 8px;
     padding-bottom: 8px;
     line-height: 1;
@@ -198,4 +225,37 @@ body{
     max-width: 239px;
     height: 1px;
     background-color: #C778DD;
+}
+
+.skills-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*contacts*/
+
+.c-title::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto 189px;
+    max-width: 127px;
+    height: 1px;
+    background-color: #C778DD;
+}
+
+.contacts-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*footer*/
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
 }
