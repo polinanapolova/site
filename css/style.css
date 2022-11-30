@@ -301,9 +301,90 @@ body{
     padding-bottom: 512px;
 }
 
+.contacts-text{
+    color: #ABB2BF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.message{
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid #ABB2BF;
+}
+.message-title{
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 16px 0 16px;
+}
+
+.message-text{
+    color:#ABB2BF;
+    padding: 16px;
+}
+
+.tg{
+    padding-bottom: 18px;
+}
+
+.tg::after{
+    content: "89017473384";
+}
+.gmail::after{
+    content: "napolitano.polina@gmail.com";
+    /*нужно сделать по центру иконки*/
+}
 /*footer*/
 
 .footer-row{
+    /* display: flex;
+    justify-content: space-between; */
+    /* border-top: 1px solid #ABB2BF;
+    padding-top: 32px;
+    padding-bottom: 48px; */
+}
+
+.footer-logo{
+    display: flex;
+    column-gap: 32px;;
+}
+
+.footer-gmail{
+    color:#ABB2BF;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.footer-text{
+    padding-top: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.r-footer{
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #ABB2BF;
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+.footer-media{
+    text-align: left;
+}
+.media-text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.footer-author{
+    text-align: center;
+    padding-bottom: 32px;
+    color: #ABB2BF;
+    font-weight: 400;
+    font-size: 16px;
 }
