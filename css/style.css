@@ -175,6 +175,7 @@ body{
 .project-row{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 55px;
 }
 
 .title{
@@ -230,8 +231,19 @@ body{
 .skills-row{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 81px;
 }
 
+.skills-img{
+    padding-left: 27px;
+    padding-top: 22px;
+}
+
+.skills-card-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
 /*contacts*/
 
 .c-title::after{
@@ -251,6 +263,8 @@ body{
 .contacts-row{
     display: flex;
     justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 512px;
 }
 
 /*footer*/
