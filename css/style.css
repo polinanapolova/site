@@ -139,19 +139,27 @@ body{
 .status{
     position: relative;
     padding-left: 32px;
-    padding-right: 80px;
+    padding-right: 80px; 
     font-weight: 500;
     font-size: 16px;
     color: #ABB2BF;
     border: 1px solid #ABB2BF;
-    width: 402px;/*все ломается при сжатии, но зато нет переноса*/
+    width: 402px; 
+    /* flex-basis: 402px; */
+    /*все ломается при сжатии, но зато нет переноса*/
     /*height: 36px;*/
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 8px; 
     line-height: 1;
     
 }
-
+.status::after{
+    content: "Portfolio";
+    color:#FFFFFF;
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
 .white{
     font-weight: 600;
     font-size: 16px;
@@ -235,14 +243,40 @@ body{
 }
 
 .skills-img{
-    padding-left: 27px;
-    padding-top: 22px;
+    margin-left: 27px;
+    margin-top: 22px;
+    /* margin-right: 59px; */
 }
 
 .skills-card-row{
+    padding-left: 59px;
     display: flex;
     justify-content: space-between;
-    
+    flex-basis: 584px;
+    align-items: flex-start;
+    gap: 16px 16px;
+    padding-top: 43px;
+    flex-wrap: wrap;
+}
+
+.skills-card{
+    border-collapse: collapse;
+    text-align: left;
+}
+.skills-card-title{
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #ABB2BF;
+    padding: 8px;
+}
+
+.skills-card-text{
+    color: #ABB2BF;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #ABB2BF;
+    padding: 8px;
 }
 /*contacts*/
 
