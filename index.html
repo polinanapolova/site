@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/reset.css">
     <title>Homepage</title>
 </head>
@@ -14,13 +15,16 @@
             <div class="header-nav">
                 <a href="#!" class="logo"><img class="img_logo" src="./img/Logo.svg" width="16px" height="16px">Polina N.</a>
                 
-                <nav class="nav">
+                <nav id="nav" class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#!" class="nav-link active">home</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">projects</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">about-me</a></li>
                         <li class="nav-item"><a href="#!" class="nav-link">contacts</a></li>
                     </ul>
+                    <button id="nav-btn" class="nav-btn">
+                        <img id="nav-btn-img" src="./img/nav-open.svg" alt="Nav button">
+                    </button>
                 </nav>
             
             </div>
@@ -30,13 +34,13 @@
                     <p class="purple">Hi, I am</p>
                     <p>Polina Napolova</p>
                     <p class="purple Iam">Front-end developer</p>
-                    <p class="button" >Resume</p>
+                    <p class="button">Resume</p>
                 </div>
                 
-                <div id="squares"><img src="./img/squares.svg"></div>
-                <div id="dots"><img src="./img/Dots.svg"></div>
+                <!-- <div id="squares"><img src="./img/squares.svg"></div>
+                <div id="dots"><img src="./img/Dots.svg"></div> -->
                 <div id="img-me" class="header-img">
-                    <img class="img-me" src="./img/me.png" width="253px" height="306px">
+                    <img class="img-me" src="./img/me.png">
                     <p class="status">Currently working on</p>
                 </div>
             </div>
@@ -152,6 +156,7 @@
             <p class="footer-author">© Copyright 2022. Made by Polina N</p>
         </div>
     </footer>
-</div>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

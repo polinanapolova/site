@@ -1,0 +1,92 @@
+@media(max-width: 468px){
+    .status::before{
+        margin-top: 8px; 
+     }
+}
+
+@media (max-width: 1024px){
+   
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-list{
+        display: none;
+    }
+
+    .nav-btn{
+        display: block;
+    }
+
+    .nav.open .nav-list{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #282C33;
+        
+        z-index: 1;
+        padding: 30px 16px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+
+        font-size: 32px;
+        font-weight: 400;
+
+    }
+
+    .nav-btn{
+        position: fixed;
+        z-index: 9;
+        top: 30px;
+        right: 16px;
+    }
+
+    .header-row{
+        flex-direction: column;
+    }
+    
+    .header-nav{
+        margin-bottom: 42px;
+    }
+
+    .img-me{
+        width: 320px;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .skills-img{
+        display: none;
+    }
+
+    .skills-card-row{
+        justify-content: space-evenly;
+        flex-basis: 1024px;
+        padding-left: 0;
+    }
+
+    .contacts-row{
+        flex-flow: column wrap;
+        padding-bottom: 300px;
+        padding-top: 20px;
+    }
+    .contacts-text{
+        padding-bottom: 32px;
+    }
+
+    .footer-logo{
+        flex-direction: column;
+    }
+
+    .footer-media{
+        font-size: 16px;
+    }
+    .media-img{
+        width: 120px;
+    }
+}

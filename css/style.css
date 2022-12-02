@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    max-width: 1084px;
+    max-width: 1024px;
     padding: 0;
     margin: 0 auto;
     background-color: #282C33;
@@ -47,6 +47,10 @@ body{
     font-style: 16px;
 }
 
+.nav-btn{
+    display: none;
+}
+
 .nav-link{
     color:#ABB2BF;
 }
@@ -72,7 +76,7 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 32px;
-    width: 500px;
+    /* width: 500px; */
 }
 
 .purple{
@@ -100,17 +104,21 @@ body{
 }
 
 .header-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 77px;
     margin-right: 36px;
-    max-width: 420px;
+
+    /* max-width: 420px; */
 }
 /*при полном экране красиво, когда сжимаешь все теряется, нужно задать размеры
 еще сжалась надпись фронтеда*/
-#squares, #img-me, #dots{
+/* #squares, #img-me, #dots{
     position: relative;
-}
+} */
 
-#squares{
+/* #squares{
     right: -285px;
     bottom: -20px
 }
@@ -121,14 +129,14 @@ body{
 }
 
 #squares{
-    z-index: 1;
+    z-index: 10;
 }
 #img-me{
-    z-index: 2;
+    z-index: 11;
 }
 #dots{
-    z-index: 3;
-}
+    z-index: 12;
+} */
 
 .img-me{
     display: block;
@@ -144,7 +152,7 @@ body{
     font-size: 16px;
     color: #ABB2BF;
     border: 1px solid #ABB2BF;
-    width: 402px; 
+    /* width: 402px;  */
     /* flex-basis: 402px; */
     /*все ломается при сжатии, но зато нет переноса*/
     /*height: 36px;*/
@@ -214,10 +222,6 @@ body{
 
 .project-card{
  margin-top: 48px;
-}
-
-.project-card-title{
-
 }
 
 /*skils*/
@@ -336,14 +340,6 @@ body{
     /*нужно сделать по центру иконки*/
 }
 /*footer*/
-
-.footer-row{
-    /* display: flex;
-    justify-content: space-between; */
-    /* border-top: 1px solid #ABB2BF;
-    padding-top: 32px;
-    padding-bottom: 48px; */
-}
 
 .footer-logo{
     display: flex;
