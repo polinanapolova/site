@@ -144,7 +144,7 @@ body{
     margin-right: auto;
     margin-bottom: 12px;
 }
-.status{
+.status{ 
     position: relative;
     padding-left: 32px;
     padding-right: 80px; 
@@ -221,9 +221,60 @@ body{
 }
 
 .project-card{
- margin-top: 48px;
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 48px;
+    /* border: 1px solid #ABB2BF; */
 }
 
+.project-card-img{
+    border: 1px solid #ABB2BF;
+}
+
+.description{
+    border-left: 1px solid #ABB2BF; 
+    border-right: 1px solid #ABB2BF;
+    padding-left: 8px;
+}
+
+.project-card-title{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.card-description{
+    padding: 16px;
+    border: 1px solid #ABB2BF;
+}
+
+.project-card-text{
+    margin-bottom: 16px;
+}
+
+.project-card-text{
+    padding-bottom: 16px;
+}
+
+
+.project-card-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.card-btn{
+    border: 1px solid #ABB2BF;
+    padding: 8px;
+    color:#ABB2BF;
+
+}
+.purple-btn{
+    border-color: #C778DD;
+    color:#FFFFFF;
+}
 /*skils*/
 
 .s-title::after{
@@ -293,7 +344,7 @@ body{
     right: 0;
     bottom: 0;
     margin: auto 189px;
-    max-width: 127px;
+    max-width: 326px;
     height: 1px;
     background-color: #C778DD;
 }

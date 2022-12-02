@@ -17,10 +17,10 @@
                 
                 <nav id="nav" class="nav">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="#!" class="nav-link active">home</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">projects</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">about-me</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">contacts</a></li>
+                        <li class="nav-item"><a href="#home" class="nav-link active">home</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">about-me</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
                     </ul>
                     <button id="nav-btn" class="nav-btn">
                         <img id="nav-btn-img" src="./img/nav-open.svg" alt="Nav button">
@@ -36,7 +36,7 @@
                     <p class="purple Iam">Front-end developer</p>
                     <p class="button">Resume</p>
                 </div>
-                
+                <!-- сломанно -->
                 <!-- <div id="squares"><img src="./img/squares.svg"></div>
                 <div id="dots"><img src="./img/Dots.svg"></div> -->
                 <div id="img-me" class="header-img">
@@ -49,24 +49,43 @@
     
     <section class="projects">
         <div class="container">
-            <h1 class="title p-title">projects</h1>
+            <h1 class="title p-title"><a name="projects">projects</a></h1>
             <div class="project-row">
-
-                in developing
-                <!-- <div class="project-card">
+                <div class="project-card">
                     <img src="./img/project_1.png" alt="" class="project-card-img" width="330.58px" height="201px">
-                    <h3 class="project-card-title">description</h3>
-                    <a href="#!" class="">View ~></a>
+                    <div class="description">HTML CSS</div>
+                    <div class="card-description">
+                        <p class="project-card-title">PiedPiper</p>
+                        <p class="project-card-text">Educational landing page.</p>
+                        <ul class="project-card-btn">
+                            <li><a href="#!" class="card-btn purple-btn">Live <~></a></li>
+                            <li><a href="https://github.com/polinanapolova/site" class="card-btn">GitHub <~></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="project-card">
                     <img src="./img/project_1.png" alt="" class="project-card-img" width="330.58px" height="201px">
-                    <h3 class="project-card-title">description</h3>
-                    <a href="#!" class="">View ~></a>
+                    <div class="description">HTML CSS JS</div>
+                    <div class="card-description">
+                        <p class="project-card-title">Procractinate</p>
+                        <p class="project-card-text">Idea's generator.</p>
+                        <ul class="project-card-btn">
+                            <li><a href="#!" class="card-btn purple-btn">Live <~></a></li>
+                            <li><a href="https://github.com/polinanapolova/site" class="card-btn">GitHub <~></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="project-card">
                     <img src="./img/project_1.png" alt="" class="project-card-img" width="330.58px" height="201px">
-                    <h3 class="project-card-title">description</h3>
-                    <a href="#!" class="">View ~></a> -->
+                    <div class="description">HTML CSS JS</div>
+                    <div class="card-description">
+                        <p class="project-card-title">Portfolio</p>
+                        <p class="project-card-text">My portfolio.<br>You are viewing it now.</p>
+                        <ul class="project-card-btn">
+                            <li><a href="#!" class="card-btn purple-btn">Live <~></a></li>
+                            <li><a href="https://github.com/polinanapolova/site" class="card-btn">GitHub <~></a></li>
+                        </ul>
+                    </div>
                 </div> 
             </div>
         </div>
@@ -74,7 +93,7 @@
 
     <section class="skills">
         <div class="container">
-            <h1 class="title s-title">skills</h1>
+            <h1 class="title s-title"><a name="skills">skills</a></h1>
             <div class="skills-row">
                 <div class="skills-img">
                     <img src="./img/Group 36.svg">
@@ -116,7 +135,7 @@
 
     <section class="contacts">
         <div class="container">
-            <h1 class="title c-title">contacts</h1>
+            <h1 class="title c-title"><a name="contacts">contacts</a></h1>
             <div class="contacts-row">
                 <p class="contacts-text">Detail-oriented Front-End Developer<br> with experience working with HTML, CSS,<br> JavaScript and TypeScript.</p>
                 <table class="message">
