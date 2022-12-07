@@ -22,6 +22,18 @@
     .nav-btn{
         display: block;
     }
+    .nav-resume{
+        display: block;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        border: 1px solid #C778DD;
+        width: 140px;
+        height: 35px;
+        text-align: center;  
+        padding-top: 5px;
+        /* margin-top: 32px; */
+    }
 
     .nav.open .nav-list{
         position: fixed;
@@ -95,6 +107,9 @@
 
     .project-row{
         flex-direction: column;
+    }
+    .project-card{
+        width: 100%;
     }
     /* skills */
     .skills-img{

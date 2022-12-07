@@ -51,6 +51,10 @@ body{
     display: none;
 }
 
+.nav-resume{
+    display: none;
+}
+
 .nav-link{
     color:#ABB2BF;
 }
@@ -93,13 +97,14 @@ body{
 }
 
 .button{
+    color:#fff;
     font-weight: 400;
     font-size: 16px;
     border: 1px solid #C778DD;
-    width: 140px;
-    height: 35px;
+    /* width: 140px;
+    height: 35px; */
     text-align: center;  
-    padding-top: 5px;
+    padding: 8px 32px;
     margin-top: 32px;
 }
 
@@ -192,6 +197,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-bottom: 55px;
+    column-gap: 16px;
 }
 
 .title{
@@ -225,7 +231,8 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin-top: 48px;
-    /* border: 1px solid #ABB2BF; */
+    width: 33%;
+    /* border: 1px solid #ABB2BF;  */
 }
 
 .project-card-img{
