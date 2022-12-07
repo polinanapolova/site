@@ -87,9 +87,13 @@
     } */
     
 
+    .header-img{
+       width: 100%;
+    }
     .img-me{
         position: none;
         width: 320px;
+        /* width: 80%; */
     }
 
      /* .status{
