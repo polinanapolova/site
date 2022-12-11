@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/reset.css">
     <title>Homepage</title>
 </head>
@@ -16,11 +17,11 @@
                 <a href="https://github.com/polinanapolova" class="logo"><img class="img_logo" src="./img/Logo.svg" width="16px" height="16px">Polina N.</a>
                 
                 <nav id="nav" class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="#home" class="nav-link active">home</a></li>
-                        <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
-                        <li class="nav-item"><a href="#skills" class="nav-link">about-me</a></li>
-                        <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+                    <ul id="nav-list" class="nav-list">
+                        <li  class="nav-item"><a href="#home" class="nav-link active" id="nav-item">home</a></li>
+                        <li  class="nav-item"><a href="#projects" class="nav-link" id="nav-item">projects</a></li>
+                        <li  class="nav-item"><a href="#skills" class="nav-link" id="nav-item">about-me</a></li>
+                        <li  class="nav-item"><a href="#contacts" class="nav-link" id="nav-item">contacts</a></li>
                         <li class="nav-item"><a href="https://hh.ru/applicant/resumes/view?resume=123272caff0b7e25760039ed1f656e45667a51" class="nav-resume">Resume</a></li>
                     </ul>
                     <button id="nav-btn" class="nav-btn">
@@ -31,7 +32,8 @@
             </div>
 
             <div class="header-row">
-                <div class="header-content">
+
+                <div class="header-content" data-aos="fade-up">
                     <p class="purple">Hi, I am</p>
                     <p>Polina Napolova</p>
                     <p class="purple Iam">Front-end developer</p>
@@ -40,7 +42,7 @@
                 <!-- сломанно -->
                 <!-- <div id="squares"><img src="./img/squares.svg"></div>
                 <div id="dots"><img src="./img/Dots.svg"></div> -->
-                <div id="img-me" class="header-img">
+                <div id="img-me" class="header-img" data-aos="fade-left">
                     <img class="img-me" src="./img/me.png">
                     <p class="status">Currently working on</p>
                 </div>
@@ -52,7 +54,7 @@
         <div class="container">
             <h1 class="title p-title"><a name="projects">projects</a></h1>
             <div class="project-row">
-                <div class="project-card">
+                <div class="project-card" data-aos="zoom-in">
                     <img src="./img/project_1.png" alt="" class="project-card-img">
                     <div class="description">HTML CSS</div>
                     <div class="card-description">
@@ -64,7 +66,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card" data-aos="zoom-in">
                     <img src="./img/project_2.png" alt="" class="project-card-img">
                     <div class="description">HTML CSS JS</div>
                     <div class="card-description">
@@ -76,7 +78,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card" data-aos="zoom-in">
                     <img src="./img/project_3.png" alt="" class="project-card-img">
                     <div class="description">HTML CSS JS</div>
                     <div class="card-description">
@@ -96,36 +98,36 @@
         <div class="container">
             <h1 class="title s-title"><a name="skills">skills</a></h1>
             <div class="skills-row">
-                <div class="skills-img">
+                <div class="skills-img" data-aos="zoom-in">
                     <img src="./img/Group 36.svg">
                 </div>
                 <div class="skills-card-row">
-                    <table class="skills-card">
+                    <table class="skills-card" data-aos="zoom-in">
                         <tr><th class="skills-card-title">Languages</th></tr>
                         <tr><td class="skills-card-text">
                            JavaScript TypeScript Python
                         </td></tr>
                     </table>
                   
-                    <table class="skills-card">
+                    <table class="skills-card" data-aos="zoom-in">
                         <tr><th class="skills-card-title">Databases</th></tr>
                         <tr><td class="skills-card-text">
                             SQL
                         </td></tr>
                     </table>
                 
-                    <table class="skills-card">
+                    <table class="skills-card" data-aos="zoom-in">
                         <tr><th class="skills-card-title">Tools</th></tr>
                         <tr><td class="skills-card-text">VSCode
                             Figma Git</td></tr>
                     </table>
                   
-                    <table class="skills-card">
+                    <table class="skills-card" data-aos="zoom-in">
                         <tr><th class="skills-card-title">Other</th></tr>
                         <tr><td class="skills-card-text"> HTML CSS REST API DOM SEO</td></tr>
                     </table>
 
-                    <table class="skills-card">
+                    <table class="skills-card" data-aos="zoom-in">
                         <tr><th class="skills-card-title">Frameworks</th></tr>
                         <tr><td class="skills-card-text">React Angular</td></tr>
                     </table>        
@@ -137,7 +139,7 @@
     <section class="contacts">
         <div class="container">
             <h1 class="title c-title"><a name="contacts">contacts</a></h1>
-            <div class="contacts-row">
+            <div class="contacts-row" data-aos="fade-down">
                 <p class="contacts-text">Detail-oriented Front-End Developer<br> with experience working with HTML, CSS,<br> JavaScript and TypeScript.</p>
                 <table class="message">
                     <tr><th class="message-title">Message me here</th></tr>
@@ -176,7 +178,7 @@
             <p class="footer-author">© Copyright 2022. Made by Polina N</p>
         </div>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
