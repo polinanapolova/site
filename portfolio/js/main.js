@@ -12,7 +12,9 @@ navBtn.onclick = () => {
         navBtnImg.src = "./img/nav-open.svg";
     }
 }
-AOS.init();
+AOS.init(
+    // {once: true}  
+);
 
 // navItem.onclick = function(){
 //     if(getComputedStyle(navList).display === 'flex'){
